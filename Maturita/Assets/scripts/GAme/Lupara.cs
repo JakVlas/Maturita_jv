@@ -1,4 +1,4 @@
-using UnityEngine;
+using UnityEngine;using System.Collections; using System.Collections.Generic;
 
 public class Lupara : MonoBehaviour
 {
@@ -21,7 +21,7 @@ public class Lupara : MonoBehaviour
         if (Input.GetButton("Fire1"))
         {
             Shoot();
-
+            Debug.Log("shoot");
         }
     }
     
@@ -33,34 +33,34 @@ public class Lupara : MonoBehaviour
         RaycastHit hit2;
         RaycastHit hit3;
 
-        GameObject muzzleInstance = Instatiate(muzzle, Spawn.position, Spawn.localRotation);
+        GameObject muzzleInstance=Instantiate(muzzle, Spawn.position, Spawn.localRotation);
         muzzleInstance.transform.parent = Spawn;
 
         // rovna kulka
-        if (Physics.Raycast(cam.transform.position, cam.transform.forward, out hit, distance))
+        if (Physics.Raycast(cam.transform.position, cam.transform.forward, out hit, dist))
         {
-            Instatiate(impact, hit.point, Quaternion.LookRotation(hit.normal));
+            Instantiate(impact, hit.point, Quaternion.LookRotation(hit.normal));
 
         }
 
-        if (Physics.Raycast(cam.transform.position, cam.transform.forward + new Vector3(-.2f, 0f, 0f), out hit1, distance))
+        if (Physics.Raycast(cam.transform.position, cam.transform.forward + new Vector3(-.2f, 0f, 0f), out hit1, dist))
         {
-            Instatiate(impact, hit1.point, Quaternion.LookRotation(hit1.normal));
+            Instantiate(impact, hit1.point, Quaternion.LookRotation(hit1.normal));
 
         }
 
         // nahoru
 
-        if (Physics.Raycast(cam.transform.position, cam.transform.forward + new Vector3(0f, .1f, 0f), out hi2, distance))
+        if (Physics.Raycast(cam.transform.position, cam.transform.forward + new Vector3(0f, .1f, 0f), out hit2, dist))
         {
-            Instatiate(impact, hit2.point, Quaternion.LookRotation(hit2.normal));
+            Instantiate(impact, hit2.point, Quaternion.LookRotation(hit2.normal));
 
         }
         
-        // dolu
-        if (Physics.Raycast(cam.transform.position, cam.transform.forward + new Vector3(0f, -.1f, 0f), out hi3, distance))
+        // // dolu
+        if (Physics.Raycast(cam.transform.position, cam.transform.forward + new Vector3(0f, -.1f, 0f), out hit3, dist))
         {
-            Instatiate(impact, hit3.point, Quaternion.LookRotation(hit3.normal));
+            Instantiate(impact, hit3.point, Quaternion.LookRotation(hit3.normal));
 
         }
         

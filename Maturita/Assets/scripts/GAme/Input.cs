@@ -30,7 +30,7 @@ public class PlayerMovement : MonoBehaviour
     public int bps;
     public int range;
     private bool canFire = true;
-    public GameObject hitmarker;
+    // public GameObject hitmarker;
     public float distance;
     public int weapon_mode;
 
@@ -107,6 +107,7 @@ public class PlayerMovement : MonoBehaviour
         {
             Change_weapon_mode();
         }
+
     }
 
     void Shoot()
@@ -138,12 +139,12 @@ public class PlayerMovement : MonoBehaviour
 
     private void HitActive()
     {
-        hitmarker.SetActive(true);
+        // hitmarker.SetActive(true);
     }
 
     private void HitDisabled()
     {
-        hitmarker.SetActive(false);
+        // hitmarker.SetActive(false);
     }
 
 
