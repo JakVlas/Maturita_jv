@@ -26,6 +26,20 @@
             ]
         },
         {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "Enemy",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "ExplodingEnemy",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
             "managedAssemblyName": "",
             "nativeClass": "GameManager",
             "fullManagedTypeName": "",
@@ -51,6 +65,13 @@
                 "Assets/Scenes/hra.unity",
                 "Assets/Scenes/Intro.unity"
             ]
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "Lupara",
+            "moduleName": "",
+            "usedInScenes": []
         },
         {
             "managedAssemblyName": "",
@@ -110,14 +131,7 @@
         {
             "managedAssemblyName": "Assembly-CSharp.dll",
             "nativeClass": "",
-            "fullManagedTypeName": "PlayerMovement",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Assembly-CSharp.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "Readme",
+            "fullManagedTypeName": "Player",
             "moduleName": "",
             "usedInScenes": []
         },
@@ -147,6 +161,13 @@
             "nativeClass": "ShaderNameRegistry",
             "fullManagedTypeName": "",
             "moduleName": "Core",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "Spawn",
+            "moduleName": "",
             "usedInScenes": []
         },
         {
@@ -213,18 +234,63 @@
             "usedInScenes": []
         },
         {
-            "managedAssemblyName": "Unity.TextMeshPro.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "TMPro.TMP_SubMeshUI",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
             "managedAssemblyName": "Assembly-CSharp.dll",
             "nativeClass": "",
             "fullManagedTypeName": "UltimatniNastaveni",
             "moduleName": "",
             "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Unity.AI.Navigation.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "Unity.AI.Navigation.NavMeshSurface",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Unity.AppUI.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "Unity.AppUI.Core.AppUISettings",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Unity.Behavior.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "Unity.Behavior.BehaviorGraph",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Unity.Behavior.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "Unity.Behavior.BehaviorGraphAgent",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Unity.Behavior.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "Unity.Behavior.BehaviorGraphDebugInfo",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Unity.Behavior.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "Unity.Behavior.RuntimeBlackboardAsset",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "AnimatorController",
+            "fullManagedTypeName": "UnityEditor.Animations.AnimatorController",
+            "moduleName": "Animation",
+            "usedInScenes": [
+                "Assets/Scenes/hra.unity",
+                "Assets/Scenes/Intro.unity"
+            ]
         },
         {
             "managedAssemblyName": "UnityEngine.dll",
@@ -294,6 +360,45 @@
         },
         {
             "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "NavMeshAgent",
+            "fullManagedTypeName": "UnityEngine.AI.NavMeshAgent",
+            "moduleName": "AI",
+            "usedInScenes": [
+                "Assets/Scenes/hra.unity",
+                "Assets/Scenes/Intro.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "NavMeshData",
+            "fullManagedTypeName": "UnityEngine.AI.NavMeshData",
+            "moduleName": "AI",
+            "usedInScenes": [
+                "Assets/Scenes/hra.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "AnimationClip",
+            "fullManagedTypeName": "UnityEngine.AnimationClip",
+            "moduleName": "Animation",
+            "usedInScenes": [
+                "Assets/Scenes/hra.unity",
+                "Assets/Scenes/Intro.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "Animator",
+            "fullManagedTypeName": "UnityEngine.Animator",
+            "moduleName": "Animation",
+            "usedInScenes": [
+                "Assets/Scenes/hra.unity",
+                "Assets/Scenes/Intro.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
             "nativeClass": "AudioMixer",
             "fullManagedTypeName": "UnityEngine.Audio.AudioMixer",
             "moduleName": "Audio",
@@ -328,6 +433,7 @@
             "fullManagedTypeName": "UnityEngine.Audio.AudioResource",
             "moduleName": "Audio",
             "usedInScenes": [
+                "Assets/Scenes/hra.unity",
                 "Assets/Scenes/Intro.unity"
             ]
         },
@@ -337,6 +443,7 @@
             "fullManagedTypeName": "UnityEngine.Audio.AudioResource",
             "moduleName": "Audio",
             "usedInScenes": [
+                "Assets/Scenes/hra.unity",
                 "Assets/Scenes/Intro.unity"
             ]
         },
@@ -356,6 +463,7 @@
             "fullManagedTypeName": "UnityEngine.AudioClip",
             "moduleName": "Audio",
             "usedInScenes": [
+                "Assets/Scenes/hra.unity",
                 "Assets/Scenes/Intro.unity"
             ]
         },
@@ -375,6 +483,7 @@
             "fullManagedTypeName": "UnityEngine.AudioSource",
             "moduleName": "Audio",
             "usedInScenes": [
+                "Assets/Scenes/hra.unity",
                 "Assets/Scenes/Intro.unity"
             ]
         },
@@ -394,7 +503,8 @@
             "fullManagedTypeName": "UnityEngine.BoxCollider",
             "moduleName": "Physics",
             "usedInScenes": [
-                "Assets/Scenes/hra.unity"
+                "Assets/Scenes/hra.unity",
+                "Assets/Scenes/Intro.unity"
             ]
         },
         {
@@ -433,7 +543,8 @@
             "fullManagedTypeName": "UnityEngine.CharacterController",
             "moduleName": "Physics",
             "usedInScenes": [
-                "Assets/Scenes/hra.unity"
+                "Assets/Scenes/hra.unity",
+                "Assets/Scenes/Intro.unity"
             ]
         },
         {
@@ -442,7 +553,8 @@
             "fullManagedTypeName": "UnityEngine.Collider",
             "moduleName": "Physics",
             "usedInScenes": [
-                "Assets/Scenes/hra.unity"
+                "Assets/Scenes/hra.unity",
+                "Assets/Scenes/Intro.unity"
             ]
         },
         {
@@ -554,6 +666,7 @@
             "fullManagedTypeName": "UnityEngine.Light",
             "moduleName": "Core",
             "usedInScenes": [
+                "Assets/Scenes/hra.unity",
                 "Assets/Scenes/Intro.unity"
             ]
         },
@@ -583,7 +696,8 @@
             "fullManagedTypeName": "UnityEngine.Mesh",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/hra.unity"
+                "Assets/Scenes/hra.unity",
+                "Assets/Scenes/Intro.unity"
             ]
         },
         {
@@ -601,7 +715,8 @@
             "fullManagedTypeName": "UnityEngine.MeshFilter",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/hra.unity"
+                "Assets/Scenes/hra.unity",
+                "Assets/Scenes/Intro.unity"
             ]
         },
         {
@@ -610,7 +725,8 @@
             "fullManagedTypeName": "UnityEngine.MeshRenderer",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/hra.unity"
+                "Assets/Scenes/hra.unity",
+                "Assets/Scenes/Intro.unity"
             ]
         },
         {
@@ -625,9 +741,39 @@
         },
         {
             "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "Motion",
+            "fullManagedTypeName": "UnityEngine.Motion",
+            "moduleName": "Animation",
+            "usedInScenes": [
+                "Assets/Scenes/hra.unity",
+                "Assets/Scenes/Intro.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
             "nativeClass": "Object",
             "fullManagedTypeName": "UnityEngine.Object",
             "moduleName": "Core",
+            "usedInScenes": [
+                "Assets/Scenes/hra.unity",
+                "Assets/Scenes/Intro.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "ParticleSystem",
+            "fullManagedTypeName": "UnityEngine.ParticleSystem",
+            "moduleName": "ParticleSystem",
+            "usedInScenes": [
+                "Assets/Scenes/hra.unity",
+                "Assets/Scenes/Intro.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "ParticleSystemRenderer",
+            "fullManagedTypeName": "UnityEngine.ParticleSystemRenderer",
+            "moduleName": "ParticleSystem",
             "usedInScenes": [
                 "Assets/Scenes/hra.unity",
                 "Assets/Scenes/Intro.unity"
@@ -656,7 +802,8 @@
             "fullManagedTypeName": "UnityEngine.Renderer",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/hra.unity"
+                "Assets/Scenes/hra.unity",
+                "Assets/Scenes/Intro.unity"
             ]
         },
         {
@@ -1102,7 +1249,18 @@
             "fullManagedTypeName": "UnityEngine.Rigidbody",
             "moduleName": "Physics",
             "usedInScenes": [
-                "Assets/Scenes/hra.unity"
+                "Assets/Scenes/hra.unity",
+                "Assets/Scenes/Intro.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "RuntimeAnimatorController",
+            "fullManagedTypeName": "UnityEngine.RuntimeAnimatorController",
+            "moduleName": "Animation",
+            "usedInScenes": [
+                "Assets/Scenes/hra.unity",
+                "Assets/Scenes/Intro.unity"
             ]
         },
         {
@@ -1114,6 +1272,23 @@
                 "Assets/Scenes/hra.unity",
                 "Assets/Scenes/Intro.unity"
             ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "SkinnedMeshRenderer",
+            "fullManagedTypeName": "UnityEngine.SkinnedMeshRenderer",
+            "moduleName": "Core",
+            "usedInScenes": [
+                "Assets/Scenes/hra.unity",
+                "Assets/Scenes/Intro.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "Unity.Splines.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "UnityEngine.Splines.SplineContainer",
+            "moduleName": "",
+            "usedInScenes": []
         },
         {
             "managedAssemblyName": "UnityEngine.dll",
@@ -1266,7 +1441,14 @@
         {
             "managedAssemblyName": "Assembly-CSharp.dll",
             "nativeClass": "",
-            "fullManagedTypeName": "zivoty",
+            "fullManagedTypeName": "WeaponSway",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "Zivoty",
             "moduleName": "",
             "usedInScenes": []
         }

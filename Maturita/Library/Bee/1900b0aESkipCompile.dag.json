@@ -10,7 +10,8 @@
       "ToBuildDependencies": [
         1,
         2,
-        3
+        3,
+        4
       ],
       "DebugActionIndex": 0
     },
@@ -24,22 +25,54 @@
       "DebugActionIndex": 1
     },
     {
+      "Annotation": "WriteResponseFile Library/Bee/artifacts/rsp/6097564273297756792.rsp",
+      "DisplayName": "Writing 6097564273297756792.rsp",
+      "ActionType": "WriteFile",
+      "PayloadOffset": 83,
+      "PayloadLength": 7463,
+      "PayloadDebugContentSnippet": "-a=\"D:\\Maturita_jv\\Maturita\\Li",
+      "Inputs": [],
+      "InputFlags": [],
+      "Outputs": [
+        "Library/Bee/artifacts/rsp/6097564273297756792.rsp"
+      ],
+      "OutputFlags": [
+        2
+      ],
+      "DebugActionIndex": 2
+    },
+    {
       "Annotation": "BuildPlayerDataGenerator Library/BuildPlayerData/Editor/TypeDb-All.json",
       "DisplayName": "Extracting script serialization layouts",
-      "Action": "\"C:/Program Files/Unity/Hub/Editor/6000.0.60f1/Editor/Data\\Tools\\netcorerun\\netcorerun.exe\" \"C:/Program Files/Unity/Hub/Editor/6000.0.60f1/Editor/Data/Tools/BuildPlayerDataGenerator/BuildPlayerDataGenerator.exe\" -a=\"D:\\Maturita\\Maturitni prace\\Maturita\\Library\\ScriptAssemblies\\Assembly-CSharp.dll\" -a=\"D:\\Maturita\\Maturitni prace\\Maturita\\Library\\ScriptAssemblies\\Unity.AI.Navigation.dll\" -a=\"D:\\Maturita\\Maturitni prace\\Maturita\\Library\\ScriptAssemblies\\Unity.Burst.dll\" -a=\"D:\\Maturita\\Maturitni prace\\Maturita\\Library\\ScriptAssemblies\\Unity.Cinemachine.dll\" -a=\"D:\\Maturita\\Maturitni prace\\Maturita\\Library\\ScriptAssemblies\\Unity.Collections.dll\" -a=\"D:\\Maturita\\Maturitni prace\\Maturita\\Library\\ScriptAssemblies\\Unity.InputSystem.dll\" -a=\"D:\\Maturita\\Maturitni prace\\Maturita\\Library\\ScriptAssemblies\\Unity.InputSystem.ForUI.dll\" -a=\"D:\\Maturita\\Maturitni prace\\Maturita\\Library\\ScriptAssemblies\\Unity.InputSystem.TestFramework.dll\" -a=\"D:\\Maturita\\Maturitni prace\\Maturita\\Library\\ScriptAssemblies\\Unity.Mathematics.dll\" -a=\"D:\\Maturita\\Maturitni prace\\Maturita\\Library\\ScriptAssemblies\\Unity.Multiplayer.Center.Common.dll\" -a=\"D:\\Maturita\\Maturitni prace\\Maturita\\Library\\ScriptAssemblies\\Unity.PerformanceTesting.dll\" -a=\"D:\\Maturita\\Maturitni prace\\Maturita\\Library\\ScriptAssemblies\\Unity.Rendering.LightTransport.Runtime.dll\" -a=\"D:\\Maturita\\Maturitni prace\\Maturita\\Library\\ScriptAssemblies\\Unity.RenderPipeline.Universal.ShaderLibrary.dll\" -a=\"D:\\Maturita\\Maturitni prace\\Maturita\\Library\\ScriptAssemblies\\Unity.RenderPipelines.Core.Runtime.dll\" -a=\"D:\\Maturita\\Maturitni prace\\Maturita\\Library\\ScriptAssemblies\\Unity.RenderPipelines.Core.Runtime.Shared.dll\" -a=\"D:\\Maturita\\Maturitni prace\\Maturita\\Library\\ScriptAssemblies\\Unity.RenderPipelines.Core.ShaderLibrary.dll\" -a=\"D:\\Maturita\\Maturitni prace\\Maturita\\Library\\ScriptAssemblies\\Unity.RenderPipelines.GPUDriven.Runtime.dll\" -a=\"D:\\Maturita\\Maturitni prace\\Maturita\\Library\\ScriptAssemblies\\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll\" -a=\"D:\\Maturita\\Maturitni prace\\Maturita\\Library\\ScriptAssemblies\\Unity.RenderPipelines.Universal.2D.Runtime.dll\" -a=\"D:\\Maturita\\Maturitni prace\\Maturita\\Library\\ScriptAssemblies\\Unity.RenderPipelines.Universal.Config.Runtime.dll\" -a=\"D:\\Maturita\\Maturitni prace\\Maturita\\Library\\ScriptAssemblies\\Unity.RenderPipelines.Universal.Runtime.dll\" -a=\"D:\\Maturita\\Maturitni prace\\Maturita\\Library\\ScriptAssemblies\\Unity.RenderPipelines.Universal.Shaders.dll\" -a=\"D:\\Maturita\\Maturitni prace\\Maturita\\Library\\ScriptAssemblies\\Unity.Splines.dll\" -a=\"D:\\Maturita\\Maturitni prace\\Maturita\\Library\\ScriptAssemblies\\Unity.TextMeshPro.dll\" -a=\"D:\\Maturita\\Maturitni prace\\Maturita\\Library\\ScriptAssemblies\\Unity.Timeline.dll\" -a=\"D:\\Maturita\\Maturitni prace\\Maturita\\Library\\ScriptAssemblies\\Unity.VisualScripting.Core.dll\" -a=\"D:\\Maturita\\Maturitni prace\\Maturita\\Library\\ScriptAssemblies\\Unity.VisualScripting.Flow.dll\" -a=\"D:\\Maturita\\Maturitni prace\\Maturita\\Library\\ScriptAssemblies\\Unity.VisualScripting.State.dll\" -a=\"D:\\Maturita\\Maturitni prace\\Maturita\\Library\\ScriptAssemblies\\UnityEngine.TestRunner.dll\" -a=\"D:\\Maturita\\Maturitni prace\\Maturita\\Library\\ScriptAssemblies\\UnityEngine.UI.dll\" -a=\"D:\\Maturita\\Maturitni prace\\Maturita\\Library\\PackageCache\\com.unity.burst@1df634d836b8\\Unity.Burst.CodeGen\\Unity.Burst.Cecil.dll\" -a=\"D:\\Maturita\\Maturitni prace\\Maturita\\Library\\PackageCache\\com.unity.burst@1df634d836b8\\Unity.Burst.CodeGen\\Unity.Burst.Cecil.Mdb.dll\" -a=\"D:\\Maturita\\Maturitni prace\\Maturita\\Library\\PackageCache\\com.unity.burst@1df634d836b8\\Unity.Burst.CodeGen\\Unity.Burst.Cecil.Pdb.dll\" -a=\"D:\\Maturita\\Maturitni prace\\Maturita\\Library\\PackageCache\\com.unity.burst@1df634d836b8\\Unity.Burst.CodeGen\\Unity.Burst.Cecil.Rocks.dll\" -a=\"D:\\Maturita\\Maturitni prace\\Maturita\\Library\\PackageCache\\com.unity.burst@1df634d836b8\\Unity.Burst.Unsafe.dll\" -a=\"D:\\Maturita\\Maturitni prace\\Maturita\\Library\\PackageCache\\com.unity.collections@aea9d3bd5e19\\Unity.Collections.LowLevel.ILSupport\\Unity.Collections.LowLevel.ILSupport.dll\" -a=\"D:\\Maturita\\Maturitni prace\\Maturita\\Library\\PackageCache\\com.unity.collections@aea9d3bd5e19\\Unity.Collections.Tests\\System.IO.Hashing\\System.IO.Hashing.dll\" -a=\"D:\\Maturita\\Maturitni prace\\Maturita\\Library\\PackageCache\\com.unity.collections@aea9d3bd5e19\\Unity.Collections.Tests\\System.Runtime.CompilerServices.Unsafe\\System.Runtime.CompilerServices.Unsafe.dll\" -a=\"D:\\Maturita\\Maturitni prace\\Maturita\\Library\\PackageCache\\com.unity.ext.nunit@031a54704bff\\net40\\unity-custom\\nunit.framework.dll\" -a=\"D:\\Maturita\\Maturitni prace\\Maturita\\Library\\PackageCache\\com.unity.nuget.mono-cecil@d78732e851eb\\Mono.Cecil.dll\" -a=\"D:\\Maturita\\Maturitni prace\\Maturita\\Library\\PackageCache\\com.unity.nuget.mono-cecil@d78732e851eb\\Mono.Cecil.Mdb.dll\" -a=\"D:\\Maturita\\Maturitni prace\\Maturita\\Library\\PackageCache\\com.unity.nuget.mono-cecil@d78732e851eb\\Mono.Cecil.Pdb.dll\" -a=\"D:\\Maturita\\Maturitni prace\\Maturita\\Library\\PackageCache\\com.unity.nuget.mono-cecil@d78732e851eb\\Mono.Cecil.Rocks.dll\" -a=\"D:\\Maturita\\Maturitni prace\\Maturita\\Library\\PackageCache\\com.unity.visualscripting@6279e2b7c485\\Runtime\\VisualScripting.Flow\\Dependencies\\NCalc\\Unity.VisualScripting.Antlr3.Runtime.dll\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\6000.0.60f1\\Editor\\Data\\Managed\\UnityEngine\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\6000.0.60f1\\Editor\\Data\\NetStandard\\compat\\2.1.0\\shims\\netfx\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\6000.0.60f1\\Editor\\Data\\NetStandard\\compat\\2.1.0\\shims\\netstandard\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\6000.0.60f1\\Editor\\Data\\NetStandard\\EditorExtensions\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\6000.0.60f1\\Editor\\Data\\NetStandard\\Extensions\\2.0.0\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\6000.0.60f1\\Editor\\Data\\NetStandard\\ref\\2.1.0\" -s=\"D:\\Maturita\\Maturitni prace\\Maturita\\Library\\ScriptAssemblies\" -s=\"D:\\Maturita\\Maturitni prace\\Maturita\\Library\\PackageCache\\com.unity.burst@1df634d836b8\" -s=\"D:\\Maturita\\Maturitni prace\\Maturita\\Library\\PackageCache\\com.unity.burst@1df634d836b8\\Unity.Burst.CodeGen\" -s=\"D:\\Maturita\\Maturitni prace\\Maturita\\Library\\PackageCache\\com.unity.collections@aea9d3bd5e19\\Unity.Collections.LowLevel.ILSupport\" -s=\"D:\\Maturita\\Maturitni prace\\Maturita\\Library\\PackageCache\\com.unity.collections@aea9d3bd5e19\\Unity.Collections.Tests\\System.IO.Hashing\" -s=\"D:\\Maturita\\Maturitni prace\\Maturita\\Library\\PackageCache\\com.unity.collections@aea9d3bd5e19\\Unity.Collections.Tests\\System.Runtime.CompilerServices.Unsafe\" -s=\"D:\\Maturita\\Maturitni prace\\Maturita\\Library\\PackageCache\\com.unity.ext.nunit@031a54704bff\\net40\\unity-custom\" -s=\"D:\\Maturita\\Maturitni prace\\Maturita\\Library\\PackageCache\\com.unity.nuget.mono-cecil@d78732e851eb\" -s=\"D:\\Maturita\\Maturitni prace\\Maturita\\Library\\PackageCache\\com.unity.visualscripting@6279e2b7c485\\Runtime\\VisualScripting.Flow\\Dependencies\\NCalc\" -o=\"Library/BuildPlayerData/Editor\" -rn=\"\" -tn=\"TypeDb-All.json\"",
+      "Action": "\"C:/Program Files/Unity/Hub/Editor/6000.0.60f1/Editor/Data\\Tools\\netcorerun\\netcorerun.exe\" \"C:/Program Files/Unity/Hub/Editor/6000.0.60f1/Editor/Data/Tools/BuildPlayerDataGenerator/BuildPlayerDataGenerator.exe\" @\"Library\\Bee\\artifacts\\rsp\\6097564273297756792.rsp\"",
       "Inputs": [
         "C:/Program Files/Unity/Hub/Editor/6000.0.60f1/Editor/Data/Tools/netcorerun/netcorerun.exe",
         "C:/Program Files/Unity/Hub/Editor/6000.0.60f1/Editor/Data/Tools/BuildPlayerDataGenerator/BuildPlayerDataGenerator.exe",
         "Library/ScriptAssemblies/Assembly-CSharp.dll",
+        "Library/ScriptAssemblies/Autodesk.Fbx.BuildTestAssets.dll",
+        "Library/ScriptAssemblies/Autodesk.Fbx.dll",
         "Library/ScriptAssemblies/Unity.AI.Navigation.dll",
+        "Library/ScriptAssemblies/Unity.Animation.Rigging.dll",
+        "Library/ScriptAssemblies/Unity.Animation.Rigging.DocCodeExamples.dll",
+        "Library/ScriptAssemblies/Unity.AppUI.dll",
+        "Library/ScriptAssemblies/Unity.AppUI.InternalAPIBridge.dll",
+        "Library/ScriptAssemblies/Unity.AppUI.MVVM.dll",
+        "Library/ScriptAssemblies/Unity.AppUI.Navigation.dll",
+        "Library/ScriptAssemblies/Unity.AppUI.Redux.dll",
+        "Library/ScriptAssemblies/Unity.AppUI.Undo.dll",
+        "Library/ScriptAssemblies/Unity.Behavior.dll",
+        "Library/ScriptAssemblies/Unity.Behavior.SerializableGUID.dll",
+        "Library/ScriptAssemblies/Unity.Behavior.Serialization.dll",
         "Library/ScriptAssemblies/Unity.Burst.dll",
         "Library/ScriptAssemblies/Unity.Cinemachine.dll",
         "Library/ScriptAssemblies/Unity.Collections.dll",
+        "Library/ScriptAssemblies/Unity.Formats.Fbx.Runtime.dll",
         "Library/ScriptAssemblies/Unity.InputSystem.dll",
         "Library/ScriptAssemblies/Unity.InputSystem.ForUI.dll",
         "Library/ScriptAssemblies/Unity.InputSystem.TestFramework.dll",
         "Library/ScriptAssemblies/Unity.Mathematics.dll",
         "Library/ScriptAssemblies/Unity.Multiplayer.Center.Common.dll",
+        "Library/ScriptAssemblies/Unity.Muse.Behavior.dll",
         "Library/ScriptAssemblies/Unity.PerformanceTesting.dll",
         "Library/ScriptAssemblies/Unity.Rendering.LightTransport.Runtime.dll",
         "Library/ScriptAssemblies/Unity.RenderPipeline.Universal.ShaderLibrary.dll",
@@ -73,7 +106,9 @@
         "Library/PackageCache/com.unity.nuget.mono-cecil@d78732e851eb/Mono.Cecil.Mdb.dll",
         "Library/PackageCache/com.unity.nuget.mono-cecil@d78732e851eb/Mono.Cecil.Pdb.dll",
         "Library/PackageCache/com.unity.nuget.mono-cecil@d78732e851eb/Mono.Cecil.Rocks.dll",
-        "Library/PackageCache/com.unity.visualscripting@6279e2b7c485/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
+        "Library/PackageCache/com.unity.nuget.newtonsoft-json@74deb55db2a0/Runtime/Newtonsoft.Json.dll",
+        "Library/PackageCache/com.unity.visualscripting@6279e2b7c485/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll",
+        "Library/Bee/artifacts/rsp/6097564273297756792.rsp"
       ],
       "InputFlags": [
         0,
@@ -121,7 +156,24 @@
         0,
         0,
         0,
-        0
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        8
       ],
       "Outputs": [
         "Library/BuildPlayerData/Editor/TypeDb-All.json"
@@ -129,8 +181,11 @@
       "OutputFlags": [
         0
       ],
+      "ToBuildDependencies": [
+        2
+      ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 2
+      "DebugActionIndex": 3
     },
     {
       "Annotation": "ScriptAssembliesAndTypeDB",
@@ -141,9 +196,9 @@
       "OutputFlags": [],
       "ToBuildDependencies": [
         1,
-        2
+        3
       ],
-      "DebugActionIndex": 3
+      "DebugActionIndex": 4
     }
   ],
   "FileSignatures": [
@@ -306,13 +361,55 @@
       "File": "Library/PackageCache/com.unity.nuget.mono-cecil@d78732e851eb/Mono.Cecil.Rocks.dll"
     },
     {
+      "File": "Library/PackageCache/com.unity.nuget.newtonsoft-json@74deb55db2a0/Runtime/Newtonsoft.Json.dll"
+    },
+    {
       "File": "Library/PackageCache/com.unity.visualscripting@6279e2b7c485/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
     },
     {
       "File": "Library/ScriptAssemblies/Assembly-CSharp.dll"
     },
     {
+      "File": "Library/ScriptAssemblies/Autodesk.Fbx.BuildTestAssets.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Autodesk.Fbx.dll"
+    },
+    {
       "File": "Library/ScriptAssemblies/Unity.AI.Navigation.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.Animation.Rigging.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.Animation.Rigging.DocCodeExamples.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.AppUI.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.AppUI.InternalAPIBridge.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.AppUI.MVVM.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.AppUI.Navigation.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.AppUI.Redux.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.AppUI.Undo.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.Behavior.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.Behavior.SerializableGUID.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.Behavior.Serialization.dll"
     },
     {
       "File": "Library/ScriptAssemblies/Unity.Burst.dll"
@@ -322,6 +419,9 @@
     },
     {
       "File": "Library/ScriptAssemblies/Unity.Collections.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.Formats.Fbx.Runtime.dll"
     },
     {
       "File": "Library/ScriptAssemblies/Unity.InputSystem.dll"
@@ -337,6 +437,9 @@
     },
     {
       "File": "Library/ScriptAssemblies/Unity.Multiplayer.Center.Common.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.Muse.Behavior.dll"
     },
     {
       "File": "Library/ScriptAssemblies/Unity.PerformanceTesting.dll"
@@ -425,7 +528,7 @@
         "NamedNodes": {
           "all_tundra_nodes": 0,
           "ScriptAssemblies": 1,
-          "ScriptAssembliesAndTypeDB": 3
+          "ScriptAssembliesAndTypeDB": 4
         }
 ,  "DefaultNodes": [
     0
@@ -433,6 +536,6 @@
   "SharedResources": [],
   "Scanners": [],
   "Identifier": "Library/Bee/1900b0aESkipCompile.dag.json",
-  "PayloadsFile": "D:/Maturita/Maturitni prace/Maturita/Library/Bee/1900b0aESkipCompile.dag.payloads",
+  "PayloadsFile": "D:/Maturita_jv/Maturita/Library/Bee/1900b0aESkipCompile.dag.payloads",
   "RelativePathToRoot": "../.."
 }

@@ -1,7 +1,11 @@
 <linker>
 	<assembly fullname="Assembly-CSharp" ignoreIfMissing="1">
+		<type fullname="Player">
+			<method name="Pause"/>
+		</type>
 		<type fullname="tlacitka">
 			<method name="Konec"/>
+			<method name="Zmena_sceny"/>
 			<method name="Zmena_sceny"/>
 		</type>
 		<type fullname="UltimatniNastaveni">
@@ -41,8 +45,6 @@
 	</assembly>
 	<assembly fullname="UnityEngine.CoreModule" ignoreIfMissing="1">
 		<type fullname="UnityEngine.GameObject">
-			<method name="SetActive"/>
-			<method name="SetActive"/>
 			<method name="SetActive"/>
 			<method name="SetActive"/>
 			<method name="SetActive"/>
