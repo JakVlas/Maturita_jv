@@ -22,7 +22,9 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/hra.unity",
-                "Assets/Scenes/Intro.unity"
+                "Assets/Scenes/Intro.unity",
+                "Assets/Scenes/prohra.unity",
+                "Assets/Scenes/vitez.unity"
             ]
         },
         {
@@ -46,7 +48,9 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/hra.unity",
-                "Assets/Scenes/Intro.unity"
+                "Assets/Scenes/Intro.unity",
+                "Assets/Scenes/prohra.unity",
+                "Assets/Scenes/vitez.unity"
             ]
         },
         {
@@ -63,7 +67,9 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/hra.unity",
-                "Assets/Scenes/Intro.unity"
+                "Assets/Scenes/Intro.unity",
+                "Assets/Scenes/prohra.unity",
+                "Assets/Scenes/vitez.unity"
             ]
         },
         {
@@ -87,7 +93,9 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/hra.unity",
-                "Assets/Scenes/Intro.unity"
+                "Assets/Scenes/Intro.unity",
+                "Assets/Scenes/prohra.unity",
+                "Assets/Scenes/vitez.unity"
             ]
         },
         {
@@ -118,7 +126,9 @@
             "moduleName": "AI",
             "usedInScenes": [
                 "Assets/Scenes/hra.unity",
-                "Assets/Scenes/Intro.unity"
+                "Assets/Scenes/Intro.unity",
+                "Assets/Scenes/prohra.unity",
+                "Assets/Scenes/vitez.unity"
             ]
         },
         {
@@ -320,7 +330,9 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/hra.unity",
-                "Assets/Scenes/Intro.unity"
+                "Assets/Scenes/Intro.unity",
+                "Assets/Scenes/prohra.unity",
+                "Assets/Scenes/vitez.unity"
             ]
         },
         {
@@ -404,7 +416,9 @@
             "moduleName": "Audio",
             "usedInScenes": [
                 "Assets/Scenes/hra.unity",
-                "Assets/Scenes/Intro.unity"
+                "Assets/Scenes/Intro.unity",
+                "Assets/Scenes/prohra.unity",
+                "Assets/Scenes/vitez.unity"
             ]
         },
         {
@@ -414,7 +428,9 @@
             "moduleName": "Audio",
             "usedInScenes": [
                 "Assets/Scenes/hra.unity",
-                "Assets/Scenes/Intro.unity"
+                "Assets/Scenes/Intro.unity",
+                "Assets/Scenes/prohra.unity",
+                "Assets/Scenes/vitez.unity"
             ]
         },
         {
@@ -424,7 +440,9 @@
             "moduleName": "Audio",
             "usedInScenes": [
                 "Assets/Scenes/hra.unity",
-                "Assets/Scenes/Intro.unity"
+                "Assets/Scenes/Intro.unity",
+                "Assets/Scenes/prohra.unity",
+                "Assets/Scenes/vitez.unity"
             ]
         },
         {
@@ -434,7 +452,9 @@
             "moduleName": "Audio",
             "usedInScenes": [
                 "Assets/Scenes/hra.unity",
-                "Assets/Scenes/Intro.unity"
+                "Assets/Scenes/Intro.unity",
+                "Assets/Scenes/prohra.unity",
+                "Assets/Scenes/vitez.unity"
             ]
         },
         {
@@ -444,7 +464,9 @@
             "moduleName": "Audio",
             "usedInScenes": [
                 "Assets/Scenes/hra.unity",
-                "Assets/Scenes/Intro.unity"
+                "Assets/Scenes/Intro.unity",
+                "Assets/Scenes/prohra.unity",
+                "Assets/Scenes/vitez.unity"
             ]
         },
         {
@@ -454,7 +476,9 @@
             "moduleName": "Audio",
             "usedInScenes": [
                 "Assets/Scenes/hra.unity",
-                "Assets/Scenes/Intro.unity"
+                "Assets/Scenes/Intro.unity",
+                "Assets/Scenes/prohra.unity",
+                "Assets/Scenes/vitez.unity"
             ]
         },
         {
@@ -464,7 +488,9 @@
             "moduleName": "Audio",
             "usedInScenes": [
                 "Assets/Scenes/hra.unity",
-                "Assets/Scenes/Intro.unity"
+                "Assets/Scenes/Intro.unity",
+                "Assets/Scenes/prohra.unity",
+                "Assets/Scenes/vitez.unity"
             ]
         },
         {
@@ -474,7 +500,9 @@
             "moduleName": "Audio",
             "usedInScenes": [
                 "Assets/Scenes/hra.unity",
-                "Assets/Scenes/Intro.unity"
+                "Assets/Scenes/Intro.unity",
+                "Assets/Scenes/prohra.unity",
+                "Assets/Scenes/vitez.unity"
             ]
         },
         {
@@ -484,7 +512,9 @@
             "moduleName": "Audio",
             "usedInScenes": [
                 "Assets/Scenes/hra.unity",
-                "Assets/Scenes/Intro.unity"
+                "Assets/Scenes/Intro.unity",
+                "Assets/Scenes/prohra.unity",
+                "Assets/Scenes/vitez.unity"
             ]
         },
         {
@@ -494,7 +524,9 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/hra.unity",
-                "Assets/Scenes/Intro.unity"
+                "Assets/Scenes/Intro.unity",
+                "Assets/Scenes/prohra.unity",
+                "Assets/Scenes/vitez.unity"
             ]
         },
         {
@@ -514,7 +546,9 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/hra.unity",
-                "Assets/Scenes/Intro.unity"
+                "Assets/Scenes/Intro.unity",
+                "Assets/Scenes/prohra.unity",
+                "Assets/Scenes/vitez.unity"
             ]
         },
         {
@@ -524,7 +558,9 @@
             "moduleName": "UI",
             "usedInScenes": [
                 "Assets/Scenes/hra.unity",
-                "Assets/Scenes/Intro.unity"
+                "Assets/Scenes/Intro.unity",
+                "Assets/Scenes/prohra.unity",
+                "Assets/Scenes/vitez.unity"
             ]
         },
         {
@@ -534,7 +570,9 @@
             "moduleName": "UI",
             "usedInScenes": [
                 "Assets/Scenes/hra.unity",
-                "Assets/Scenes/Intro.unity"
+                "Assets/Scenes/Intro.unity",
+                "Assets/Scenes/prohra.unity",
+                "Assets/Scenes/vitez.unity"
             ]
         },
         {
@@ -564,7 +602,9 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/hra.unity",
-                "Assets/Scenes/Intro.unity"
+                "Assets/Scenes/Intro.unity",
+                "Assets/Scenes/prohra.unity",
+                "Assets/Scenes/vitez.unity"
             ]
         },
         {
@@ -581,7 +621,9 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/hra.unity",
-                "Assets/Scenes/Intro.unity"
+                "Assets/Scenes/Intro.unity",
+                "Assets/Scenes/prohra.unity",
+                "Assets/Scenes/vitez.unity"
             ]
         },
         {
@@ -605,7 +647,9 @@
             "moduleName": "TextRendering",
             "usedInScenes": [
                 "Assets/Scenes/hra.unity",
-                "Assets/Scenes/Intro.unity"
+                "Assets/Scenes/Intro.unity",
+                "Assets/Scenes/prohra.unity",
+                "Assets/Scenes/vitez.unity"
             ]
         },
         {
@@ -615,7 +659,9 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/hra.unity",
-                "Assets/Scenes/Intro.unity"
+                "Assets/Scenes/Intro.unity",
+                "Assets/Scenes/prohra.unity",
+                "Assets/Scenes/vitez.unity"
             ]
         },
         {
@@ -667,7 +713,9 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/hra.unity",
-                "Assets/Scenes/Intro.unity"
+                "Assets/Scenes/Intro.unity",
+                "Assets/Scenes/prohra.unity",
+                "Assets/Scenes/vitez.unity"
             ]
         },
         {
@@ -677,7 +725,9 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/hra.unity",
-                "Assets/Scenes/Intro.unity"
+                "Assets/Scenes/Intro.unity",
+                "Assets/Scenes/prohra.unity",
+                "Assets/Scenes/vitez.unity"
             ]
         },
         {
@@ -687,7 +737,9 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/hra.unity",
-                "Assets/Scenes/Intro.unity"
+                "Assets/Scenes/Intro.unity",
+                "Assets/Scenes/prohra.unity",
+                "Assets/Scenes/vitez.unity"
             ]
         },
         {
@@ -736,7 +788,9 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/hra.unity",
-                "Assets/Scenes/Intro.unity"
+                "Assets/Scenes/Intro.unity",
+                "Assets/Scenes/prohra.unity",
+                "Assets/Scenes/vitez.unity"
             ]
         },
         {
@@ -756,7 +810,9 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/hra.unity",
-                "Assets/Scenes/Intro.unity"
+                "Assets/Scenes/Intro.unity",
+                "Assets/Scenes/prohra.unity",
+                "Assets/Scenes/vitez.unity"
             ]
         },
         {
@@ -793,7 +849,9 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/hra.unity",
-                "Assets/Scenes/Intro.unity"
+                "Assets/Scenes/Intro.unity",
+                "Assets/Scenes/prohra.unity",
+                "Assets/Scenes/vitez.unity"
             ]
         },
         {
@@ -1240,7 +1298,9 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/hra.unity",
-                "Assets/Scenes/Intro.unity"
+                "Assets/Scenes/Intro.unity",
+                "Assets/Scenes/prohra.unity",
+                "Assets/Scenes/vitez.unity"
             ]
         },
         {
@@ -1270,7 +1330,9 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/hra.unity",
-                "Assets/Scenes/Intro.unity"
+                "Assets/Scenes/Intro.unity",
+                "Assets/Scenes/prohra.unity",
+                "Assets/Scenes/vitez.unity"
             ]
         },
         {
@@ -1297,7 +1359,9 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/hra.unity",
-                "Assets/Scenes/Intro.unity"
+                "Assets/Scenes/Intro.unity",
+                "Assets/Scenes/prohra.unity",
+                "Assets/Scenes/vitez.unity"
             ]
         },
         {
@@ -1307,7 +1371,9 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/hra.unity",
-                "Assets/Scenes/Intro.unity"
+                "Assets/Scenes/Intro.unity",
+                "Assets/Scenes/prohra.unity",
+                "Assets/Scenes/vitez.unity"
             ]
         },
         {
@@ -1317,7 +1383,9 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/hra.unity",
-                "Assets/Scenes/Intro.unity"
+                "Assets/Scenes/Intro.unity",
+                "Assets/Scenes/prohra.unity",
+                "Assets/Scenes/vitez.unity"
             ]
         },
         {
@@ -1327,7 +1395,9 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/hra.unity",
-                "Assets/Scenes/Intro.unity"
+                "Assets/Scenes/Intro.unity",
+                "Assets/Scenes/prohra.unity",
+                "Assets/Scenes/vitez.unity"
             ]
         },
         {
@@ -1337,7 +1407,9 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/hra.unity",
-                "Assets/Scenes/Intro.unity"
+                "Assets/Scenes/Intro.unity",
+                "Assets/Scenes/prohra.unity",
+                "Assets/Scenes/vitez.unity"
             ]
         },
         {

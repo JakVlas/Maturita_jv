@@ -5,14 +5,24 @@
 		</type>
 		<type fullname="tlacitka">
 			<method name="Konec"/>
+			<method name="Konec"/>
+			<method name="Konec"/>
+			<method name="Zmena_sceny"/>
+			<method name="Zmena_sceny"/>
 			<method name="Zmena_sceny"/>
 			<method name="Zmena_sceny"/>
 		</type>
 		<type fullname="UltimatniNastaveni">
 			<method name="FullScr"/>
 			<method name="FullScr"/>
+			<method name="FullScr"/>
+			<method name="FullScr"/>
 			<method name="SetQuality"/>
 			<method name="SetQuality"/>
+			<method name="SetQuality"/>
+			<method name="SetQuality"/>
+			<method name="SetVolume"/>
+			<method name="SetVolume"/>
 			<method name="SetVolume"/>
 			<method name="SetVolume"/>
 		</type>
@@ -45,6 +55,14 @@
 	</assembly>
 	<assembly fullname="UnityEngine.CoreModule" ignoreIfMissing="1">
 		<type fullname="UnityEngine.GameObject">
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
 			<method name="SetActive"/>
 			<method name="SetActive"/>
 			<method name="SetActive"/>

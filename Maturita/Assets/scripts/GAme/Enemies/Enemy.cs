@@ -5,6 +5,13 @@ public class Enemy : MonoBehaviour
     public int health;
     Rigidbody m_Rigidbody;
     public int damage;
+    public GameObject hrac;
+
+
+    void Start()
+    {
+        hrac = GameObject.FindGameObjectWithTag("Player");
+    }
         
     public void TakeDamage(int amount)
     {
@@ -19,6 +26,9 @@ public class Enemy : MonoBehaviour
 
     void Die()
     {
+        hrac.GetComponent<Zivoty>().Kills +=1;
+        
+        if (hrac.GetComponent<Zivoty>().Kills >= 15){hrac.GetComponent<Zivoty>().Vitez();}
         Destroy(gameObject); 
     }
 

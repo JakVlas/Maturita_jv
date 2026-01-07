@@ -5,13 +5,19 @@ using UnityEngine.SceneManagement;
 
 public class Zivoty : MonoBehaviour
 {
+//  UI
     public Slider healthbar;
     public TMP_Text health;
     public Slider cholesterol;
     public TMP_Text cholest;
-
+// stats
     public float zivoty_hrace = 100f;
     public int Cholesterol = 0;
+    public int Kills;
+
+// sceny
+    public string vitezna_scena;
+    public string proherni_scena;
 
 
     private void Start()
@@ -19,12 +25,14 @@ public class Zivoty : MonoBehaviour
         health.SetText(zivoty_hrace.ToString ("0"));
         cholest.SetText(Cholesterol.ToString());
         cholesterol.value = Cholesterol;
+        Kills = 0;
     }
-
     public void Zmena_sceny(string scena){
         SceneManager.LoadScene(scena);
-    }
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
 
+    }
     private void OnCollisionEnter(Collision collision)
         {   
             Debug.Log("dotek");
@@ -76,6 +84,15 @@ public class Zivoty : MonoBehaviour
         if (zivoty_hrace <=0)
         {
             Debug.Log("die");
+            Proher();
         }
+    }
+    public void Vitez()
+    {
+        Zmena_sceny(vitezna_scena);
+    }
+    public void Proher()
+    {
+        Zmena_sceny(proherni_scena);
     }
 }
