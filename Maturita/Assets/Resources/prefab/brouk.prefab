@@ -425,7 +425,7 @@ MonoBehaviour:
         GUID:
           m_Value0: 10526300333219582935
           m_Value1: 5149371355675151702
-        Name: TArget
+        Name: Target
         m_Value: {fileID: 0}
         m_SharedVariablesRuntimeAsset: {fileID: 1916965117011348516, guid: da08034536154874daa3c15f98b25723, type: 2}
 --- !u!195 &4242544477384159328
@@ -464,7 +464,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   health: 20
   damage: 50
-  zivotys: {fileID: 0}
+  hrac: {fileID: 0}
 --- !u!114 &156034216004267733
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -483,4 +483,4 @@ MonoBehaviour:
   playerLayer:
     serializedVersion: 2
     m_Bits: 1
-  explosionEffect: {fileID: 0}
+  explosionEffect: {fileID: 2387263757619119069, guid: 4ea0e3dc10a245844a1d4c61341e49b4, type: 3}
